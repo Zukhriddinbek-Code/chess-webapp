@@ -11,3 +11,4 @@ ws.on("open", function open() {
 ws.on("message", function message(data) {
   console.log("received: %s", data);
 });
+const hello = 1;
